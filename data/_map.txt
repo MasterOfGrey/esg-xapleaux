@@ -1,0 +1,137 @@
+# Copyright (c) 2014 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+galaxy "label core"
+	pos -136 130
+	sprite label/core
+
+galaxy "label brilliance"
+	pos -40 20
+
+system "Sagittarius A*"
+	link Ick-nearolu-kechink-xi
+	link Ink-learoumera-cehikli
+
+system Achernar
+	pos -161 167
+
+system "Al Dhanab"
+	pos -216 191
+
+system Alcyone
+	pos -149 -72
+
+system Algol
+	pos -230 33
+
+system Almach
+	pos -63 232
+
+system "Alpha Hydri"
+	pos -153 125
+
+system Alpheratz
+	pos -219 137
+
+system Ankaa
+	pos -251 112
+
+system Bellatrix
+	pos -248 -55
+
+system Coluber
+	pos 162.504 207.389
+
+system Durax
+	pos -118 -35
+	link Atik
+	link Misam
+
+system Fasitopfar
+	pos 26.4305 -112.812
+
+system Hamal
+	pos -177 43
+
+system Kasikfar
+	pos -41.5695 -71.812
+
+system "Kor Ak'Mari"
+	pos -64 69
+
+system "Kor En'lakfar"
+	pos -110 2
+
+system "Kor Fel'tar"
+	pos -47 -20
+
+system "Kor Men"
+	pos -89 35
+
+system "Kor Nor'peli"
+	pos -63 181
+
+system "Kor Tar'bei"
+	pos -38 143
+
+system "Kor Zena'i"
+	pos -73 98
+
+system Kugel
+	pos -245 -13
+
+system Levana
+	pos 218.504 257.389
+
+system Lucina
+	pos 186.504 186.389
+
+system Markab
+	pos -267 169
+
+system Menkar
+	pos -221 -25
+
+system Mirach
+	pos -188 232
+
+system Mirfak
+	pos -224 -88
+
+system Moktar
+	pos -207 -133
+
+system Oblate
+	pos -185 -63
+
+system Parca
+	pos 141.464 176.664
+
+system Peresedersi
+	pos 54.4305 -164.812
+
+system Polaris
+	pos -109 148
+
+system Ruchbah
+	pos -207 96
+
+system Scheat
+	pos -224 219
+
+system Schedar
+	pos -123 224
+
+system Sheratan
+	pos -123 80
+
+system Zaurak
+	pos -170 3
+

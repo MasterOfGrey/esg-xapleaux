@@ -16,8 +16,8 @@ galaxy "label brilliance"
 	pos -40 20
 
 system "Sagittarius A*"
+	link Dygit-jarobouillier-cot
 	link Ick-nearolu-kechink-xi
-	link Ink-learoumera-cehikli
 
 system Achernar
 	pos -161 167

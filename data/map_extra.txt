@@ -1,11 +1,12 @@
 system Atch-werimoural-nikt
-	pos 13.6944 31.9351
+	pos 18.6944 31.9351
+	government Xapleaux
 	habitable 425.92
 	belt 1945
+	haze _menu/haze-cloudbright
 	link Ick-nearolu-kechink-xi
 	link Rikt-pefaerilum
 	link Vikinik-bounera
-	link Xivik-soubiae-tock
 	asteroids "small rock" 21 4.335
 	asteroids "medium rock" 68 3.315
 	asteroids "large rock" 30 4.9725
@@ -54,7 +55,7 @@ system Atch-werimoural-nikt
 			period 27.9271
 
 system Atik
-	pos -61.5358 -55.1945
+	pos -73.5358 -44.1945
 	government Pirate
 	habitable 2160
 	link Durax
@@ -102,10 +103,13 @@ system Atik
 		period 921.512
 
 system Atke-babounriuer-rik
-	pos 236.694 53.9351
+	pos 208.694 45.9351
+	government Xapleaux
 	habitable 1250
 	belt 1876
+	haze _menu/haze-cloudbright
 	link Ifk-groundissemour
+	link Ink-learoumera-cehikli
 	link Kiteg-hamlior-tock
 	link Vik-benoureal
 	asteroids "small rock" 1 9.75
@@ -157,10 +161,12 @@ system Atke-babounriuer-rik
 
 system Ceffig-haforiluour-pik
 	pos 152.694 95.9351
+	government Xapleaux
 	habitable 486.68
 	belt 1856
-	link Ceffig-heffaeriloum
+	haze _menu/haze-cloudbright
 	link Dsik-geromil-jek
+	link Ink-learoumera-cehikli
 	link Kexo-Atch
 	link Xivik-beriloumi
 	asteroids "large metal" 1 1.312
@@ -194,11 +200,10 @@ system Ceffig-haforiluour-pik
 
 system Ceffig-heffaeriloum
 	pos 168.5 117.8
+	government Xapleaux
 	habitable 2201.68
 	belt 1796
-	link Ceffig-haforiluour-pik
-	link Ink-learoumera-cehikli
-	link Kexo-Atch
+	haze _menu/haze-fullbright+
 	link Kiteg-hamlior-tock
 	asteroids "small rock" 2 3.24
 	asteroids "large rock" 3 1.377
@@ -247,9 +252,11 @@ system Ceffig-heffaeriloum
 			period 36.1042
 
 system Crxst-xialourum
-	pos 39.6944 -20.0649
+	pos 45.6944 -20.0649
+	government Xapleaux
 	habitable 486.68
 	belt 1484
+	haze _menu/haze-fullbright+
 	link Goxkotrik-feahvir
 	link Ick-nearolu-kechink-xi
 	link Vikinik-bounera
@@ -281,12 +288,13 @@ system Crxst-xialourum
 		period 2461.87
 
 system Dsik-geromil-jek
-	pos 105.694 130.935
+	pos 99.694 122.935
+	government Xapleaux
 	habitable 806.68
 	belt 1370
+	haze _menu/haze-cloudbright
 	link Ceffig-haforiluour-pik
 	link Faerilloumier-iking-kicklissnika-puol
-	link Xivik-beriloumi
 	asteroids "large metal" 1 3.7905
 	object
 		sprite star/k0
@@ -331,11 +339,13 @@ system Dsik-geromil-jek
 			period 13.0384
 
 system Dygit-hourimaserai
-	pos 200.694 -60.0649
+	pos 171.694 -37.0649
+	government Xapleaux
 	habitable 1715
 	belt 1316
-	link Dygit-jarobouillier-cot
+	haze _menu/haze-fullbright+
 	link Ixikke-faoule-xec
+	link Krigec-svolurealuo-jik
 	link Vik-benoureal
 	asteroids "small rock" 1 4.2024
 	asteroids "medium rock" 5 3.9984
@@ -386,11 +396,13 @@ system Dygit-hourimaserai
 			period 46.1837
 
 system Dygit-jarobouillier-cot
-	pos 176.694 -18.0649
+	pos 149.694 10.9351
+	government Xapleaux
 	habitable 851.84
 	belt 1603
-	link Dygit-hourimaserai
-	link Ifk-groundissemour
+	haze _menu/haze-cloudbright
+	link Krigec-svolurealuo-jik
+	link "Sagittarius A*"
 	link Vik-benoureal
 	asteroids "small rock" 36 2.2078
 	asteroids "medium rock" 86 2.4206
@@ -444,11 +456,12 @@ system Dygit-jarobouillier-cot
 			period 25.9366
 
 system Faerilloumier-iking-kicklissnika-puol
-	pos 41.6944 157.935
+	pos 35.6944 154.935
+	government Xapleaux
 	habitable 1080
 	belt 1427
+	haze _menu/haze-cloudbright
 	link Dsik-geromil-jek
-	link Xivik-beriloumi
 	asteroids "small rock" 16 3.3264
 	asteroids "medium rock" 9 6.3504
 	asteroids "large rock" 54 4.7088
@@ -488,10 +501,11 @@ system Faerilloumier-iking-kicklissnika-puol
 
 system Goxkotrik-feahvir
 	pos 71.6944 -84.0649
+	government Xapleaux
 	habitable 1705
 	belt 1445
+	haze _menu/haze-fullbright+
 	link Crxst-xialourum
-	link Icibvirk-gwolav-jek
 	link Ixik-swuirelouminore-kek
 	link Ticska-hearaimiumer
 	asteroids "small rock" 8 6.4239
@@ -537,11 +551,11 @@ system Goxkotrik-feahvir
 			period 20.2986
 
 system Ibvicklidit-fourelia
-	pos 164.694 -145.065
+	pos 137.694 -127.065
+	government Xapleaux
 	habitable 1715
 	belt 1768
-	link Ickewqirk-prouleah-cix
-	link Krigec-svolurealuo-jik
+	haze _menu/haze-fullbright+
 	link Ticska-hearaimiumer
 	asteroids "small rock" 2 3.04
 	asteroids "medium rock" 2 3.116
@@ -593,10 +607,11 @@ system Ibvicklidit-fourelia
 			period 48.2335
 
 system Icibvirk-gwolav-jek
-	pos 17.6944 -57.0649
+	pos 33.6944 -57.0649
+	government Xapleaux
 	habitable 1080
 	belt 1221
-	link Goxkotrik-feahvir
+	haze _menu/haze-cloudbright
 	link Vikinik-bounera
 	asteroids "small rock" 11 2.8475
 	asteroids "large rock" 10 4.165
@@ -634,9 +649,11 @@ system Icibvirk-gwolav-jek
 			period 13.6055
 
 system Ick-nearolu-kechink-xi
-	pos 77.6944 -0.0649414
+	pos 67.6944 0.935059
+	government Xapleaux
 	habitable 1566.68
 	belt 1610
+	haze _menu/haze-cloudbright
 	link Atch-werimoural-nikt
 	link Crxst-xialourum
 	link Ixik-swuirelouminore-kek
@@ -688,10 +705,11 @@ system Ick-nearolu-kechink-xi
 			period 12.9794
 
 system Ickewqirk-prouleah-cix
-	pos 147.694 -102.065
+	pos 133.694 -98.065
+	government Xapleaux
 	habitable 455
 	belt 1775
-	link Ibvicklidit-fourelia
+	haze _menu/haze-cloudbright
 	link Ixikke-faoule-xec
 	link Retuk-gleurimuw
 	link Ticska-hearaimiumer
@@ -743,13 +761,13 @@ system Ickewqirk-prouleah-cix
 			period 59.2588
 
 system Ifk-groundissemour
-	pos 205.694 16.9351
+	pos 165.694 32.9351
+	government Xapleaux
 	habitable 1080
 	belt 1268
+	haze _menu/haze-fullbright+
 	link Atke-babounriuer-rik
-	link Dygit-jarobouillier-cot
 	link Ink-learoumera-cehikli
-	link Kiteg-hamlior-tock
 	link Vik-benoureal
 	asteroids "small rock" 1 2.4505
 	asteroids "medium rock" 1 5.3157
@@ -791,14 +809,14 @@ system Ifk-groundissemour
 			period 34.1738
 
 system Ink-learoumera-cehikli
-	pos 145.694 39.9351
+	pos 174.694 59.9351
+	government Xapleaux
 	habitable 1715
 	belt 1379
-	link Ceffig-heffaeriloum
+	haze _menu/haze-cloudbright
+	link Atke-babounriuer-rik
+	link Ceffig-haforiluour-pik
 	link Ifk-groundissemour
-	link Kexo-Atch
-	link Kiteg-hamlior-tock
-	link "Sagittarius A*"
 	asteroids "small rock" 54 4.598
 	asteroids "medium rock" 90 2.8072
 	asteroids "large rock" 55 5.566
@@ -837,9 +855,11 @@ system Ink-learoumera-cehikli
 		offset 344.298
 
 system Ixik-swuirelouminore-kek
-	pos 92.6943 -30.0649
+	pos 80.6943 -30.0649
+	government Xapleaux
 	habitable 625
 	belt 1905
+	haze _menu/haze-cloudbright
 	link Goxkotrik-feahvir
 	link Ick-nearolu-kechink-xi
 	link Retuk-gleurimuw
@@ -881,9 +901,11 @@ system Ixik-swuirelouminore-kek
 		period 2551.37
 
 system Ixikke-faoule-xec
-	pos 164.732 -80.6401
+	pos 144.732 -56.6401
+	government Xapleaux
 	habitable 486.68
 	belt 1214
+	haze _menu/haze-cloudbright
 	link Dygit-hourimaserai
 	link Ickewqirk-prouleah-cix
 	asteroids "large rock" 18 5.2026
@@ -928,12 +950,13 @@ system Ixikke-faoule-xec
 			period 51.7626
 
 system Kexo-Atch
-	pos 93.6943 76.9351
+	pos 117.694 68.9351
+	government Xapleaux
 	habitable 425.92
 	belt 1562
+	haze _menu/haze-fullbright+
 	link Ceffig-haforiluour-pik
-	link Ceffig-heffaeriloum
-	link Ink-learoumera-cehikli
+	link Rikt-pefaerilum
 	link Xivik-beriloumi
 	asteroids "small rock" 24 5.65
 	asteroids "medium rock" 33 6.35
@@ -985,12 +1008,12 @@ system Kexo-Atch
 
 system Kiteg-hamlior-tock
 	pos 199.694 80.9351
+	government Xapleaux
 	habitable 625
 	belt 1609
+	haze _menu/haze-cloudbright
 	link Atke-babounriuer-rik
 	link Ceffig-heffaeriloum
-	link Ifk-groundissemour
-	link Ink-learoumera-cehikli
 	asteroids "small rock" 40 2.9376
 	asteroids "medium rock" 14 5.1408
 	asteroids "large rock" 10 4.284
@@ -1040,11 +1063,13 @@ system Kiteg-hamlior-tock
 			period 39.265
 
 system Krigec-svolurealuo-jik
-	pos 113.694 -135.065
+	pos 155.694 -15.065
+	government Xapleaux
 	habitable 320
 	belt 1902
-	link Ibvicklidit-fourelia
-	link Ticska-hearaimiumer
+	haze _menu/haze-cloudbright
+	link Dygit-hourimaserai
+	link Dygit-jarobouillier-cot
 	asteroids "small rock" 12 3.0008
 	asteroids "medium rock" 13 1.331
 	asteroids "large rock" 1 1.2826
@@ -1143,8 +1168,10 @@ system Misam
 
 system Retuk-gleurimuw
 	pos 117.694 -72.0649
+	government Xapleaux
 	habitable 486.68
 	belt 1122
+	haze _menu/haze-fullbright+
 	link Ickewqirk-prouleah-cix
 	link Ixik-swuirelouminore-kek
 	link Ticska-hearaimiumer
@@ -1187,11 +1214,15 @@ system Retuk-gleurimuw
 			period 15.3793
 
 system Rikt-pefaerilum
-	pos 39.6944 57.9351
+	pos 97.6944 46.9351
+	government Xapleaux
 	habitable 2035
 	belt 1096
+	haze _menu/haze-fullbright+
 	link Atch-werimoural-nikt
 	link Ick-nearolu-kechink-xi
+	link Kexo-Atch
+	link Xivik-beriloumi
 	link Xivik-soubiae-tock
 	asteroids "small rock" 84 2.64
 	asteroids "medium rock" 156 4.917
@@ -1232,13 +1263,14 @@ system Rikt-pefaerilum
 			period 14.1026
 
 system Ticska-hearaimiumer
-	pos 102.694 -115.065
+	pos 90.694 -108.065
+	government Xapleaux
 	habitable 486.68
 	belt 1879
+	haze _menu/haze-fullbright+
 	link Goxkotrik-feahvir
 	link Ibvicklidit-fourelia
 	link Ickewqirk-prouleah-cix
-	link Krigec-svolurealuo-jik
 	link Retuk-gleurimuw
 	asteroids "small rock" 13 2.3256
 	asteroids "medium rock" 30 1.9703
@@ -1278,14 +1310,14 @@ system Ticska-hearaimiumer
 			period 20.223
 
 system Xivik-beriloumi
-	pos 73.6944 114.935
+	pos 77.6944 102.935
+	government Xapleaux
 	habitable 320
 	belt 1927
+	haze _menu/haze-fullbright+
 	link Ceffig-haforiluour-pik
-	link Dsik-geromil-jek
-	link Faerilloumier-iking-kicklissnika-puol
 	link Kexo-Atch
-	link Xivik-soubiae-tock
+	link Rikt-pefaerilum
 	asteroids "small rock" 1 2.6656
 	asteroids "medium rock" 3 3.57
 	asteroids "large rock" 1 5.95
@@ -1323,12 +1355,12 @@ system Xivik-beriloumi
 		period 1975.32
 
 system Xivik-soubiae-tock
-	pos 32.6944 103.935
+	pos 41.6944 76.935
+	government Xapleaux
 	habitable 486.68
 	belt 1270
-	link Atch-werimoural-nikt
+	haze _menu/haze-cloudbright
 	link Rikt-pefaerilum
-	link Xivik-beriloumi
 	asteroids "small rock" 5 5.796
 	asteroids "medium rock" 33 2.562
 	asteroids "large rock" 45 3.696
@@ -1370,9 +1402,11 @@ system Xivik-soubiae-tock
 			period 103.205
 
 system Vik-benoureal
-	pos 247.694 -5.0649
+	pos 217.694 -4.0649
+	government Xapleaux
 	habitable 486.68
 	belt 1606
+	haze _menu/haze-fullbright+
 	link Atke-babounriuer-rik
 	link Dygit-hourimaserai
 	link Dygit-jarobouillier-cot
@@ -1409,9 +1443,11 @@ system Vik-benoureal
 			period 11.8633
 
 system Vikinik-bounera
-	pos 1.69437 -9.0649
+	pos 8.69437 -9.0649
+	government Xapleaux
 	habitable 233.28
 	belt 1353
+	haze _menu/haze-fullbright+
 	link Atch-werimoural-nikt
 	link Crxst-xialourum
 	link Icibvirk-gwolav-jek

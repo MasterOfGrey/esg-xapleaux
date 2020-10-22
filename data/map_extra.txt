@@ -203,7 +203,7 @@ system Ceffig-heffaeriloum
 	government Xapleaux
 	habitable 2201.68
 	belt 1796
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Kiteg-hamlior-tock
 	asteroids "small rock" 2 3.24
 	asteroids "large rock" 3 1.377
@@ -256,7 +256,7 @@ system Crxst-xialourum
 	government Xapleaux
 	habitable 486.68
 	belt 1484
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Goxkotrik-feahvir
 	link Ick-nearolu-kechink-xi
 	link Vikinik-bounera
@@ -343,7 +343,7 @@ system Dygit-hourimaserai
 	government Xapleaux
 	habitable 1715
 	belt 1316
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Ixikke-faoule-xec
 	link Krigec-svolurealuo-jik
 	link Vik-benoureal
@@ -504,7 +504,7 @@ system Goxkotrik-feahvir
 	government Xapleaux
 	habitable 1705
 	belt 1445
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Crxst-xialourum
 	link Ixik-swuirelouminore-kek
 	link Ticska-hearaimiumer
@@ -555,7 +555,7 @@ system Ibvicklidit-fourelia
 	government Xapleaux
 	habitable 1715
 	belt 1768
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Ticska-hearaimiumer
 	asteroids "small rock" 2 3.04
 	asteroids "medium rock" 2 3.116
@@ -765,7 +765,7 @@ system Ifk-groundissemour
 	government Xapleaux
 	habitable 1080
 	belt 1268
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Atke-babounriuer-rik
 	link Ink-learoumera-cehikli
 	link Vik-benoureal
@@ -954,7 +954,7 @@ system Kexo-Atch
 	government Xapleaux
 	habitable 425.92
 	belt 1562
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Ceffig-haforiluour-pik
 	link Rikt-pefaerilum
 	link Xivik-beriloumi
@@ -1116,7 +1116,7 @@ system Krigec-svolurealuo-jik
 			period 19.3629
 
 system Misam
-	pos -20.5358 -74.1945
+	pos -89.5358 -76.1945
 	government Pirate
 	habitable 320
 	link Durax
@@ -1171,7 +1171,7 @@ system Retuk-gleurimuw
 	government Xapleaux
 	habitable 486.68
 	belt 1122
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Ickewqirk-prouleah-cix
 	link Ixik-swuirelouminore-kek
 	link Ticska-hearaimiumer
@@ -1218,7 +1218,7 @@ system Rikt-pefaerilum
 	government Xapleaux
 	habitable 2035
 	belt 1096
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Atch-werimoural-nikt
 	link Ick-nearolu-kechink-xi
 	link Kexo-Atch
@@ -1267,7 +1267,7 @@ system Ticska-hearaimiumer
 	government Xapleaux
 	habitable 486.68
 	belt 1879
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Goxkotrik-feahvir
 	link Ibvicklidit-fourelia
 	link Ickewqirk-prouleah-cix
@@ -1309,12 +1309,104 @@ system Ticska-hearaimiumer
 			distance 335
 			period 20.223
 
+system Vik-benoureal
+	pos 217.694 -4.0649
+	government Xapleaux
+	habitable 486.68
+	belt 1606
+	haze _menu/haze-fullbright
+	link Atke-babounriuer-rik
+	link Dygit-hourimaserai
+	link Dygit-jarobouillier-cot
+	link Ifk-groundissemour
+	asteroids "small rock" 9 1.152
+	asteroids "medium rock" 53 0.9
+	asteroids "large rock" 3 1.404
+	asteroids "small metal" 1 1.008
+	asteroids "medium metal" 4 1.584
+	asteroids "large metal" 1 0.72
+	minables titanium 2 1.83489
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/venus
+		distance 153.01
+		period 34.3177
+	object
+		sprite planet/miranda
+		distance 316.26
+		period 101.978
+	object
+		sprite planet/cloud2
+		distance 876.62
+		period 470.604
+	object
+		sprite planet/gas0
+		distance 1759.83
+		period 1338.58
+		object
+			sprite planet/desert4
+			distance 254
+			period 11.8633
+
+system Vikinik-bounera
+	pos 8.69437 -9.0649
+	government Xapleaux
+	habitable 233.28
+	belt 1353
+	haze _menu/haze-fullbright
+	link Atch-werimoural-nikt
+	link Crxst-xialourum
+	link Icibvirk-gwolav-jek
+	asteroids "large rock" 2 2.964
+	asteroids "small metal" 28 2.8652
+	asteroids "medium metal" 9 2.4206
+	asteroids "large metal" 2 3.3098
+	minables copper 1 5.54352
+	minables tungsten 9 5.10205
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/io
+		distance 113
+		period 31.4586
+	object
+		sprite planet/gas11
+		distance 1012.04
+		period 843.175
+		object
+			sprite planet/dust3
+			distance 238
+			period 12.11
+		object
+			sprite planet/rhea
+			distance 345
+			period 21.1352
+		object
+			sprite planet/ice7
+			distance 462
+			period 32.7522
+		object
+			sprite planet/miranda
+			distance 561
+			period 43.825
+	object
+		sprite planet/gas3
+		distance 2277.8
+		period 2847.05
+		object
+			sprite planet/dust7
+			distance 275
+			period 11.6483
+
 system Xivik-beriloumi
 	pos 77.6944 102.935
 	government Xapleaux
 	habitable 320
 	belt 1927
-	haze _menu/haze-fullbright+
+	haze _menu/haze-fullbright
 	link Ceffig-haforiluour-pik
 	link Kexo-Atch
 	link Rikt-pefaerilum
@@ -1400,95 +1492,3 @@ system Xivik-soubiae-tock
 			sprite planet/dust1
 			distance 662
 			period 103.205
-
-system Vik-benoureal
-	pos 217.694 -4.0649
-	government Xapleaux
-	habitable 486.68
-	belt 1606
-	haze _menu/haze-fullbright+
-	link Atke-babounriuer-rik
-	link Dygit-hourimaserai
-	link Dygit-jarobouillier-cot
-	link Ifk-groundissemour
-	asteroids "small rock" 9 1.152
-	asteroids "medium rock" 53 0.9
-	asteroids "large rock" 3 1.404
-	asteroids "small metal" 1 1.008
-	asteroids "medium metal" 4 1.584
-	asteroids "large metal" 1 0.72
-	minables titanium 2 1.83489
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/venus
-		distance 153.01
-		period 34.3177
-	object
-		sprite planet/miranda
-		distance 316.26
-		period 101.978
-	object
-		sprite planet/cloud2
-		distance 876.62
-		period 470.604
-	object
-		sprite planet/gas0
-		distance 1759.83
-		period 1338.58
-		object
-			sprite planet/desert4
-			distance 254
-			period 11.8633
-
-system Vikinik-bounera
-	pos 8.69437 -9.0649
-	government Xapleaux
-	habitable 233.28
-	belt 1353
-	haze _menu/haze-fullbright+
-	link Atch-werimoural-nikt
-	link Crxst-xialourum
-	link Icibvirk-gwolav-jek
-	asteroids "large rock" 2 2.964
-	asteroids "small metal" 28 2.8652
-	asteroids "medium metal" 9 2.4206
-	asteroids "large metal" 2 3.3098
-	minables copper 1 5.54352
-	minables tungsten 9 5.10205
-	object
-		sprite star/m4
-		period 10
-	object
-		sprite planet/io
-		distance 113
-		period 31.4586
-	object
-		sprite planet/gas11
-		distance 1012.04
-		period 843.175
-		object
-			sprite planet/dust3
-			distance 238
-			period 12.11
-		object
-			sprite planet/rhea
-			distance 345
-			period 21.1352
-		object
-			sprite planet/ice7
-			distance 462
-			period 32.7522
-		object
-			sprite planet/miranda
-			distance 561
-			period 43.825
-	object
-		sprite planet/gas3
-		distance 2277.8
-		period 2847.05
-		object
-			sprite planet/dust7
-			distance 275
-			period 11.6483

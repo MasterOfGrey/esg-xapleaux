@@ -51,6 +51,7 @@ system Coluber
 
 system Durax
 	pos -118 -35
+	link Alcyone
 	link Atik
 	link Misam
 

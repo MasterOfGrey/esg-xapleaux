@@ -56,34 +56,34 @@ system Durax
 	link Misam
 
 system Fasitopfar
-	pos 26.4305 -112.812
+	pos -16.5695 -138.812
 
 system Hamal
 	pos -177 43
 
 system Kasikfar
-	pos -41.5695 -71.812
+	pos -44.5695 -99.812
 
 system "Kor Ak'Mari"
-	pos -64 69
+	pos -18 8
 
 system "Kor En'lakfar"
-	pos -110 2
+	pos -11 -77
 
 system "Kor Fel'tar"
-	pos -47 -20
+	pos -16 -22
 
 system "Kor Men"
-	pos -89 35
+	pos -55 -12
 
 system "Kor Nor'peli"
-	pos -63 181
+	pos 2 62
 
 system "Kor Tar'bei"
-	pos -38 143
+	pos -39 35
 
 system "Kor Zena'i"
-	pos -73 98
+	pos 12 105
 
 system Kugel
 	pos -245 -13
@@ -116,7 +116,7 @@ system Parca
 	pos 141.464 176.664
 
 system Peresedersi
-	pos 54.4305 -164.812
+	pos 22.4305 -102.812
 
 system Polaris
 	pos -109 148
